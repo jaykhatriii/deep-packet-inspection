@@ -1,0 +1,17 @@
+{
+  "name": "dpi-engine-js",
+  "version": "1.0.0",
+  "description": "Deep Packet Inspection engine (Node.js)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "bin": {
+    "dpi-simple": "dpiSimple.js",
+    "dpi-mt": "dpiMt.js"
+  },
+  "scripts": {
+    "simple": "node dpiSimple.js",
+    "mt": "node dpiMt.js"
+  }
+}
